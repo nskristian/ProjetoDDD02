@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\bin\Debug\netcoreapp3.1\Projeto.Domain.deps.json
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\bin\Debug\netcoreapp3.1\Projeto.Domain.dll
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\bin\Debug\netcoreapp3.1\Projeto.Domain.pdb
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\obj\Debug\netcoreapp3.1\Projeto.Domain.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\obj\Debug\netcoreapp3.1\Projeto.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\obj\Debug\netcoreapp3.1\Projeto.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\obj\Debug\netcoreapp3.1\Projeto.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\obj\Debug\netcoreapp3.1\Projeto.Domain.dll
+C:\Users\User\source\repos\Refazendo C#.NET\ProjetoDDD02\Projeto.Domain\obj\Debug\netcoreapp3.1\Projeto.Domain.pdb
