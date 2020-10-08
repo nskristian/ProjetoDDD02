@@ -1,4 +1,5 @@
-﻿using Projeto.Domain.Contracts.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
+using Projeto.Domain.Contracts.Repositories;
 using Projeto.Domain.Entities;
 using Projeto.Infra.Data.Contexts;
 using System;
@@ -21,6 +22,20 @@ namespace Projeto.Infra.Data.Repositories
         public List<Produto> GetByNome(string nome)
         {
             return dataContext.Produto.Where(p => p.Nome.Contains(nome)).ToList();
+        }
+
+        public override List<Produto> GetAll()
+        {
+            return dataContext.Produto
+                .Include(p => p.Fornecedor)
+                .ToList();
+        }
+
+        public override Produto GetById(int id)
+        {
+            return dataContext.Produto
+                .Include(p => p.Fornecedor) //JOIN
+                .FirstOrDefault(p => p.IdProduto == id);
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Projeto.Infra.Data.Mappings
         {
             builder.ToTable("Produto");
 
-            builder.HasKey(f => f.IdFornecedor);
+            builder.HasKey(f => f.IdProduto);
 
             builder.Property(p => p.IdProduto)
                 .HasColumnName("IdProduto")

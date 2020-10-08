@@ -45,12 +45,14 @@ namespace Projeto.Infra.Data.Migrations
 
             modelBuilder.Entity("Projeto.Domain.Entities.Produto", b =>
                 {
+                    b.Property<int>("IdProduto")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("IdProduto")
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
                     b.Property<int>("IdFornecedor")
                         .HasColumnName("IdFornecedor")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdProduto")
-                        .HasColumnName("IdProduto")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -67,7 +69,9 @@ namespace Projeto.Infra.Data.Migrations
                         .HasColumnName("Quantidade")
                         .HasColumnType("int");
 
-                    b.HasKey("IdFornecedor");
+                    b.HasKey("IdProduto");
+
+                    b.HasIndex("IdFornecedor");
 
                     b.ToTable("Produto");
                 });
